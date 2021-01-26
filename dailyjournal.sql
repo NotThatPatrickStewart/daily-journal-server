@@ -12,3 +12,14 @@ CREATE TABLE `Moods` (
     `label`  TEXT NOT NULL
 );
 
+INSERT INTO `Moods` VALUES (null, `Happy`)
+INSERT INTO `Moods` VALUES (null, `Sad`)
+INSERT INTO `Moods` VALUES (null, `Overwhelmed`)
+INSERT INTO `Moods` VALUES (null, `Frustrated`)
+INSERT INTO `Moods` VALUES (null, `Distracted`)
+INSERT INTO `Moods` VALUES (null, `Froopy`)
+INSERT INTO `Moods` VALUES (null, `*Shrug*`)
+
+INSERT INTO `Entries` VALUES (null, "JavaScript", "Shit's hard!", 1598557373697, 4)
+INSERT INTO `Entries` VALUES (null, "React", "LOL WUT", 1598557358781, 7)
+INSERT INTO `Entries` VALUES (null, "Pythin", "Less hard!", 1598458559152, 6)
